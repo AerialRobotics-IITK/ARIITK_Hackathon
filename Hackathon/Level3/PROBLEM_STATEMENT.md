@@ -168,18 +168,3 @@ pip install opencv-contrib-python numpy
 
 ---
 
-## 9. Running the Pipeline
-
-```bash
-cd Hackathon/Level3
-
-# Step 1 — Generate hybrid marker (replace X with announced ArUco ID)
-python generator.py far_target_decoy.png aruco_markers/aruco_id_X.png X hybrid_marker.png
-
-# Step 2 — Simulate altitude views
-python simulator.py hybrid_marker.png 30    # Should show H symbol, no ArUco
-python simulator.py hybrid_marker.png 2     # Should show ArUco clearly
-
-# Step 3 — Check ghosting (must be below 5)
-python visual_check.py hybrid_marker.png far_target_decoy.png
-```
