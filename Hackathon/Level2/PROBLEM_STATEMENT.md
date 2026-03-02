@@ -107,15 +107,6 @@ with open("commands.txt", "w") as f:
     f.write(f"{vx:.4f} {vy:.4f}")
 ```
 
-### In C (optional, for extra challenge)
-
-```c
-// Read camera_pixels.txt into a 100x100 int array
-// Compute vx, vy
-// Write to commands.txt
-// Run: python simulator.py --c
-```
-
 ---
 ## 5. Scoring
 
