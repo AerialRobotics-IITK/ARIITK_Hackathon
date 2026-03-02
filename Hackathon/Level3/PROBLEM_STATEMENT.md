@@ -1,6 +1,6 @@
 # Level 3 — Project MIRAGE
 
-> **Team Aerial Robotics | Y25 Recruitment Hackathon**
+> **Team Aerial Robotics IITK| Y25 Recruitment Hackathon**
 
 ---
 

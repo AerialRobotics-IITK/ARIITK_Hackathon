@@ -1,12 +1,12 @@
-# Aerial Robotics Hackathon
+# Aerial Robotics IITK Hackathon 2026
 
-> **Team Aerial Robotics | Y25 Recruitment Hackathon**
+> **Team Aerial Robotics IITK | Y25 Recruitment Hackathon 2026**
 
 Hey Y25s! Hope you are enjoying your time on the campus. These are the problem statements of the **Aerial Robotics Hackathon 2026**. They are divided into three levels. The submission guidelines for each level are mentioned clearly — please follow them correctly. Any doubts can be raised on GitHub in the **Discussions** tab of this repository. You can find the problem statements and required starter kits in this repo.
 
 ---
 
-## Challenge Structure
+## Hackathon Structure
 
 | Level | Title | Description |
 |-------|-------|-------------|
