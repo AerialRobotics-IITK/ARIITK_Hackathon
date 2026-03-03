@@ -1,6 +1,4 @@
 # Aerial Robotics IITK Hackathon 2026 — Dependencies
-# ===================================================
-
 # Level 1 & Level 2 — Pygame-based simulators
 pygame
 

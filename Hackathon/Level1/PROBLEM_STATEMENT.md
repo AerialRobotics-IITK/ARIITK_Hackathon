@@ -40,7 +40,7 @@ SKYE-X is not a passive target. It has its own onboard AI with three distinct be
 | Obstacles | `22` randomized rectangles (crates, pillars, barriers) |
 | Player Spawn | `(80, 80)` |
 | Target Spawn | `(WIDTH − 150, HEIGHT − 150)` ≈ `(1130, 750)` |
-| Mission Duration | `3000` timesteps |
+| Mission Duration | `3000` timesteps (default — configurable via `config.py`) |
 | Frame Rate | `60 FPS` |
 
 ### Drone Physics
@@ -100,7 +100,7 @@ Your drone must avoid:
 
 ### Mission Termination
 The mission ends when **any** of these occur:
-- `timesteps >= 3000` (normal completion)
+- `timesteps >= MAX_TIMESTEPS` (default `3000`, configurable in `config.py`)
 - Player drone crashes into a wall or obstacle
 
 ### What Determines a Good Score?
@@ -156,8 +156,9 @@ Teams must submit a single GitHub repository containing all of the following:
 
 | Rule | Detail |
 |------|--------|
-| Modify | `skye_controller.py` only |
-| Do not modify | `skye_env.py`, `config.py` |
+| Modify | `skye_controller.py` (your main solution) |
+| May modify | `config.py` — you may adjust parameters like `MAX_TIMESTEPS` for tuning/testing |
+| Do not modify | `skye_env.py` |
 | Do not | Hard-code target coordinates or exploit rendering internals |
 | Allowed | Any Python library (`numpy`, `scipy`, etc.) |
 

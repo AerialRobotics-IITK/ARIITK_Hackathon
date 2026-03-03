@@ -36,7 +36,8 @@ pip install -r requirements.txt
 ## Submission Guidelines
 
 ### Level 1
-- Only modify `skye_controller.py` — **do not modify `skye_env.py` or `config.py`**
+- Only modify `skye_controller.py` — **do not modify `skye_env.py`**
+- You **may** adjust `config.py` parameters (e.g. `MAX_TIMESTEPS`) for tuning/testing
 - Submit your final `skye_controller.py` with a short write-up explaining your approach
 
 ### Level 2
