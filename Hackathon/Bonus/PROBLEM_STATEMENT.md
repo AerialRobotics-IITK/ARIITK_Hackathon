@@ -89,7 +89,7 @@ curl localhost:8080 --json '{ "pitch": -1.0 }'
 |---------|--------|
 | `"pitch"` | Forward / backward tilt |
 | `"roll"` | Left / right tilt |
-| `"yaw"` | Left / right rotation |
+| `"yaw_rate"` | Left / right rotation |
 | `"throttle"` | Vertical thrust |
 
 You can send any combination of these in a single JSON payload:
